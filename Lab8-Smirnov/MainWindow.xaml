@@ -1,0 +1,13 @@
+﻿<Window x:Class="LinkedListAverageExample.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LinkedList Average Example" Height="350" Width="400">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Введите числа (через запятую):" Margin="5"/>
+            <TextBox x:Name="txtNumbers" Margin="5" Width="200"/>
+            <Button Content="Вычислить среднее арифметическое" Margin="5" Click="OnCalculateClick"/>
+            <TextBlock x:Name="txtResult" Margin="5"/>
+        </StackPanel>
+    </Grid>
+</Window>
